@@ -13,7 +13,9 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
-    <!-- JUnit 5 : pour les tests -->
+    <dependencies>
+
+        <!-- JUnit 5 : pour les tests -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
@@ -27,5 +29,7 @@
             <artifactId>javalin</artifactId>
             <version>6.5.0</version>
         </dependency>
+
+    </dependencies>
 
 </project>
