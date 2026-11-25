@@ -13,4 +13,19 @@
         <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
+    <!-- JUnit 5 : pour les tests -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.11.4</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- Javalin : pour créer un serveur web -->
+        <dependency>
+            <groupId>io.javalin</groupId>
+            <artifactId>javalin</artifactId>
+            <version>6.5.0</version>
+        </dependency>
+
 </project>
